@@ -23,7 +23,9 @@ export default function MovieSearch(){
             <GridRow centered textAlign='center'>
                 <GridColumn textAlign='center' >
                     <Search onSearchChange={handleChange} size="massive" textAlign='center' icon="search"
-                            results={handleResults}/>    
+                            results={handleResults}
+                            noResultsMessage="Oops, no movies found 🧐"/>  
+
                 </GridColumn>               
             </GridRow>
             <GridRow centered textAlign='center'>
